@@ -1,6 +1,6 @@
 Config = {}
 
-Lang = "English"
+Lang = "Espanol"
 
 Config.Axe = "hatchet"                  -- Item you want to use as an axe, same DB
 
@@ -36,13 +36,13 @@ Config.TownRestrictions = {
 
 -- Label name change manually for your language
 Config.Items = {
-    { name = "sap",    label = "Sap",       chance = 8,  amount = 2 },
-    { name = "honey",  label = "Honey",     chance = 5,  amount = 2 },
-    { name = "wood",   label = "Soft Wood", chance = 10, amount = 5 },
-    { name = "hwood",  label = "Hard Wood", chance = 8,  amount = 5 },
-    { name = "rubber", label = "Rubber",    chance = 5,  amount = 4 },
-    { name = "fibers", label = "Fibers",    chance = 8,  amount = 5 },
-    { name = "pulp",   label = "Pulp",      chance = 10, amount = 3 },
+    { name = "sap",    label = "Sabia",       chance = 8,  amount = 2 },
+    { name = "honey",  label = "Miel",     chance = 5,  amount = 2 },
+    { name = "wood",   label = "Madera Suave", chance = 10, amount = 5 },
+    { name = "hwood",  label = "Madera Dura", chance = 8,  amount = 5 },
+    { name = "rubber", label = "Goma",    chance = 5,  amount = 4 },
+    { name = "fibers", label = "Fibra",    chance = 8,  amount = 5 },
+    { name = "pulp",   label = "Pulpa",      chance = 10, amount = 3 },
 }
 
 Config.Trees = {
