@@ -62,6 +62,7 @@ RegisterServerEvent("vorp_lumberjack:axecheck", function(tree)
 				VorpCore.NotifyObjective(_source, T.NotifyLabels.brokeAxe, 5000)
 				exports.vorp_inventory:subItem(_source, Config.Axe, 1, meta)
 				TriggerClientEvent("vorp_lumberjack:noaxe", _source)
+				return
 			else
 				exports.vorp_inventory:setItemMetadata(_source, axe.id, metadata, 1)
 				TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
